@@ -1,0 +1,39 @@
+.parentcontainer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+p{
+    display: flex;
+    width: 33.33%;
+    height:50px ;
+    border:2px solid black ;
+    flex:1 0 400px;
+
+}
+
+.p1{
+    background-color: blueviolet;
+    order:1;
+}
+
+.p2{
+    background-color: green;
+    order: 2;
+}
+
+.p3{
+    background-color: orange;
+    order: 3;
+}
+
+.p4{
+
+   background-color: burlywood; 
+   order:4;
+   width:100%;
+   justify-content: center;
+}
